@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: nguyenduyandroidazuredevopsgithubacraksapp 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nguyenduyandroidazuredevopsgithubacraksapp
+  template:
+    metadata:
+      labels:
+        app: nguyenduyandroidazuredevopsgithubacraksapp 
+    spec:
+      containers:
+        - name: nguyenduyandroidazuredevopsgithubacraksapp 
+          image: ilearnaksdevopsacr.azurecr.io/nguyenduyandroidazuredevopsgithubacraksapp
+          ports:
+          - containerPort: 80
