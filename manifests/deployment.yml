@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: nguyenduyandroidazuredevopsgithubacraksapp 
-          image: ilearnaksdevopsacr.azurecr.io/nguyenduyandroidazuredevopsgithubacraksapp
+          image: ilearncontainerreg.azurecr.io/aksdevops:8
           ports:
           - containerPort: 80
